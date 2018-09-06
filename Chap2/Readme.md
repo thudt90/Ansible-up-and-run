@@ -7,3 +7,4 @@ ansible -i hosts webservers -m ping
 
 * Run playbook
 ansible-playbook -i hosts web-notls.yml
+ansible-playbook -i hosts web-tls.yml
